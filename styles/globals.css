@@ -4,8 +4,9 @@ body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: white;
-  background-color: #221b2b
+  color: #c7bbd7;
+  /*background-color: #221b2b;*/
+  background: linear-gradient(to top, #221b2b, #221b2b);
 }
 
 a {
@@ -49,7 +50,7 @@ header > div {
   justify-content: space-between;
 }
 
-.hl {
+.hl, a {
   color: #b84ade;
 }
 
@@ -67,4 +68,18 @@ main {
 .antialiased {
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale
+}
+
+hr {
+  color: #302b37;
+  background: linear-gradient(to right, #221b2b, #302b37, #221b2b);
+  height: 1px;
+  border: 0;
+  margin: 0;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  font-size:.875rem
 }

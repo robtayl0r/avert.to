@@ -6,6 +6,7 @@ export default function Layout({children}){
         <div className="container antialiased">
             <Navbar/>
             <main>{children}</main>
+            <hr/>
             <Footer/>
         </div>
     );
