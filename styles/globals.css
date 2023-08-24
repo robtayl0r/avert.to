@@ -50,6 +50,10 @@ header > div {
   justify-content: space-between;
 }
 
+header .gh {
+  color: #ffffff;
+}
+
 .hl, a {
   color: #b84ade;
 }
